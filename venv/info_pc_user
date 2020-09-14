@@ -1,0 +1,17 @@
+import platform
+import sys
+import tkinter as tk
+import os
+
+
+node = platform.node()
+login = os.getlogin()
+
+window = tk.Tk()
+pc = tk.Label(window, text=node,font=("Arial Bold", 25) )
+user = tk.Label(window, text=login, font=("Arial Bold", 25))
+
+pc.pack()
+user.pack()
+
+window.mainloop()
