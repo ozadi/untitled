@@ -1,1 +1,7 @@
-print('hello world');
+import platform
+import sys
+
+
+print(platform.node())
+import os;
+print (os.getlogin())
