@@ -11,7 +11,7 @@ window = tk.Tk()
 pc = tk.Label(window, text=node,font=("Arial Bold", 25) )
 user = tk.Label(window, text=login, font=("Arial Bold", 25))
 
-pc.pack()
-user.pack()
+pc.pack() # вывод в окне имя компа
+user.pack() #вывод в окне имя юзера
 
 window.mainloop()
